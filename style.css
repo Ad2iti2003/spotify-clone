@@ -1,0 +1,949 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    
+}
+
+
+header nav .navbar{
+    display: flex;
+    margin-top: 10px;
+    height: 70px;
+    margin-left: 100px;
+    justify-content: space-around;
+    background-color:  rgb(43, 41, 41);
+    color: white;
+    position: sticky;
+    z-index: 1;
+    opacity: 0.8;
+    top: 0;
+    
+}
+header nav .navbar .left{
+    margin-top: 10px;
+    padding: 10px;
+    color: white;
+    width: 900px;
+    background-color:  rgb(43, 41, 41);
+   
+    
+
+}
+header nav .navbar .left a i{
+    font-size: 20px;
+    color: white;
+    
+    background-color: rgb(7, 7, 9);
+}
+header nav .navbar .left a {
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+    padding: 10px;
+    gap: 30px;
+    border-radius: 50%;
+    background-color: rgb(7, 7, 9);
+}
+header nav .navbar .right{
+    color: white;
+    margin-top: 10px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(43, 41, 41);
+    
+}
+header nav .navbar .right a {
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+    gap: 30px;
+    border-radius: 50%;
+    background-color: rgb(7, 7, 9);
+}
+header nav .navbar .right a i{
+    font-size: 20px;
+    color: white;
+    gap: 30px;
+    background-color: rgb(7, 7, 9);
+}
+header nav .navbar .right .btn{
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 40px;
+}
+header nav .img{
+    
+    background-color:rgb(43, 41, 41);
+    margin-left: 100px;
+    height: 300px;
+
+}
+header nav .page1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -40px;
+    height: 80px;
+    margin-left: 100px;
+    background-color:rgb(43, 41, 41);
+}
+header nav .page1 .l{
+    padding: 20px;
+    background-color:rgb(43, 41, 41);
+}
+header nav .page1 .r{
+    
+    padding: 20px;
+    background-color:rgb(43, 41, 41);
+}
+header nav .page1 .r a{
+    
+    background-color:rgb(43, 41, 41);
+    color: azure;
+    text-decoration: none;
+    
+    
+}
+header nav .box1{
+    width: 1205px;
+    height: 300px;
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: repeat(6,170px);
+    gap: 20px;
+    background-color: rgb(43, 41, 41);
+}
+header nav .box1 .box{
+    margin: 30px;
+    height: 250px;
+    width: 170px;
+    background: linear-gradient(180deg ,rgb(59, 58, 58) 20% , rgb(61, 60, 60) 30% , rgb(54, 53, 53) 50%);
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    
+
+}
+header nav .box1 .box:hover{
+    margin: 30px;
+    height: 250px;
+    width: 170px;
+    background: linear-gradient(180deg ,rgb(92, 91, 91) 20% , rgb(93, 92, 92) 30% , rgb(86, 85, 85) 50%);
+    box-shadow: 0px 0px 10px rgb(78, 75, 75);
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    
+
+}
+header nav .box1 .box img{
+    border-radius: 10px;
+    margin-top: 10px;
+    height: 220px;
+    width: 150px;
+}
+
+
+header nav .page2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -10px;
+    height: 80px;
+    margin-left: 100px;
+    background-color:rgb(43, 41, 41);
+}
+header nav .page2 .l{
+    padding: 20px;
+    background-color:rgb(43, 41, 41);
+}
+header nav .page2 .r{
+    
+    padding: 20px;
+    background-color:rgb(43, 41, 41);
+}
+header nav .page2 .r a{
+    
+    background-color:rgb(43, 41, 41);
+    color: azure;
+    text-decoration: none;
+    
+    
+}
+header nav .box2{
+    width: 1205px;
+    height: 300px;
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: repeat(6,170px);
+    gap: 20px;
+    background-color: rgb(43, 41, 41);
+}
+header nav .box2 .box{
+    margin: 30px;
+    height: 250px;
+    width: 170px;
+    background: linear-gradient(180deg ,rgb(59, 58, 58) 20% , rgb(61, 60, 60) 30% , rgb(54, 53, 53) 50%);
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    
+
+}
+header nav .box2 .box:hover{
+    margin: 30px;
+    height: 250px;
+    width: 170px;
+    background: linear-gradient(180deg ,rgb(92, 91, 91) 20% , rgb(93, 92, 92) 30% , rgb(86, 85, 85) 50%);
+    box-shadow: 0px 0px 10px rgb(78, 75, 75);
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    
+
+}
+header nav .box2 .box img{
+    border-radius: 10px;
+    margin-top: 10px;
+    height: 220px;
+    width: 150px;
+}
+
+
+
+header nav .page3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -10px;
+    height: 80px;
+    margin-left: 100px;
+    background-color:rgb(43, 41, 41);
+}
+header nav .page3 .l{
+    padding: 20px;
+    background-color:rgb(43, 41, 41);
+}
+header nav .page3 .r{
+    
+    padding: 20px;
+    background-color:rgb(43, 41, 41);
+}
+header nav .page3 .r a{
+    
+    background-color:rgb(43, 41, 41);
+    color: azure;
+    text-decoration: none;
+    
+    
+}
+header nav .box3{
+    width: 1205px;
+    height: 300px;
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: repeat(6,170px);
+    gap: 20px;
+    background-color: rgb(43, 41, 41);
+}
+header nav .box3 .box{
+    margin: 30px;
+    height: 250px;
+    width: 170px;
+    background: linear-gradient(180deg ,rgb(59, 58, 58) 20% , rgb(61, 60, 60) 30% , rgb(54, 53, 53) 50%);
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    
+
+}
+header nav .box3 .box:hover{
+    margin: 30px;
+    height: 250px;
+    width: 170px;
+    background: linear-gradient(180deg ,rgb(92, 91, 91) 20% , rgb(93, 92, 92) 30% , rgb(86, 85, 85) 50%);
+    box-shadow: 0px 0px 10px rgb(78, 75, 75);
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    
+
+}
+header nav .box3 .box img{
+    border-radius: 10px;
+    margin-top: 10px;
+    height: 220px;
+    width: 150px;
+}
+
+header nav .page4{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -10px;
+    height: 80px;
+    margin-left: 100px;
+    background-color:rgb(43, 41, 41);
+}
+header nav .page4 .l{
+    padding: 20px;
+    background-color:rgb(43, 41, 41);
+}
+header nav .page4 .r{
+    
+    padding: 20px;
+    background-color:rgb(43, 41, 41);
+}
+header nav .page4 .r a{
+    
+    background-color:rgb(43, 41, 41);
+    color: azure;
+    text-decoration: none;
+    
+    
+}
+header nav .box4{
+    width: 1205px;
+    height: 300px;
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: repeat(6,170px);
+    gap: 20px;
+    background-color: rgb(43, 41, 41);
+}
+header nav .box4 .box{
+    margin: 30px;
+    height: 250px;
+    width: 170px;
+    background: linear-gradient(180deg ,rgb(59, 58, 58) 20% , rgb(61, 60, 60) 30% , rgb(54, 53, 53) 50%);
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    
+
+}
+header nav .box4 .box:hover{
+    margin: 30px;
+    height: 250px;
+    width: 170px;
+    background: linear-gradient(180deg ,rgb(92, 91, 91) 20% , rgb(93, 92, 92) 30% , rgb(86, 85, 85) 50%);
+    box-shadow: 0px 0px 10px rgb(78, 75, 75);
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    
+
+}
+header nav .box4 .box img{
+    border-radius: 10px;
+    margin-top: 10px;
+    height: 220px;
+    width: 150px;
+}
+
+
+
+header nav .page5{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -10px;
+    height: 80px;
+    margin-left: 100px;
+    background-color:rgb(43, 41, 41);
+}
+header nav .page5 .l{
+    padding: 20px;
+    background-color:rgb(43, 41, 41);
+}
+header nav .page5 .r{
+    
+    padding: 20px;
+    background-color:rgb(43, 41, 41);
+}
+header nav .page5 .r a{
+    
+    background-color:rgb(43, 41, 41);
+    color: azure;
+    text-decoration: none;
+    
+    
+}
+header nav .box5{
+    width: 1205px;
+    height: 300px;
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: repeat(6,170px);
+    gap: 20px;
+    background-color: rgb(43, 41, 41);
+}
+header nav .box5 .box{
+    margin: 30px;
+    height: 250px;
+    width: 170px;
+    background: linear-gradient(180deg ,rgb(59, 58, 58) 20% , rgb(61, 60, 60) 30% , rgb(54, 53, 53) 50%);
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    
+
+}
+header nav .box5 .box:hover{
+    margin: 30px;
+    height: 250px;
+    width: 170px;
+    background: linear-gradient(180deg ,rgb(92, 91, 91) 20% , rgb(93, 92, 92) 30% , rgb(86, 85, 85) 50%);
+    box-shadow: 0px 0px 10px rgb(78, 75, 75);
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    
+
+}
+header nav .box5 .box img{
+    border-radius: 10px;
+    margin-top: 10px;
+    height: 220px;
+    width: 150px;
+}
+
+
+
+header nav .page6{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -10px;
+    height: 80px;
+    margin-left: 100px;
+    background-color:rgb(43, 41, 41);
+}
+header nav .page6 .l{
+    padding: 20px;
+    background-color:rgb(43, 41, 41);
+}
+header nav .page6 .r{
+    
+    padding: 20px;
+    background-color:rgb(43, 41, 41);
+}
+header nav .page6 .r a{
+    
+    background-color:rgb(43, 41, 41);
+    color: azure;
+    text-decoration: none;
+    
+    
+}
+header nav .box6{
+    width: 1205px;
+    height: 300px;
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: repeat(6,170px);
+    gap: 20px;
+    background-color: rgb(43, 41, 41);
+}
+header nav .box6 .box{
+    margin: 30px;
+    height: 250px;
+    width: 170px;
+    background: linear-gradient(180deg ,rgb(59, 58, 58) 20% , rgb(61, 60, 60) 30% , rgb(54, 53, 53) 50%);
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    
+
+}
+header nav .box6 .box:hover{
+    margin: 30px;
+    height: 250px;
+    width: 170px;
+    background: linear-gradient(180deg ,rgb(92, 91, 91) 20% , rgb(93, 92, 92) 30% , rgb(86, 85, 85) 50%);
+    box-shadow: 0px 0px 10px rgb(78, 75, 75);
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    
+
+}
+header nav .box6 .box img{
+    border-radius: 10px;
+    margin-top: 10px;
+    height: 220px;
+    width: 150px;
+}
+
+
+header nav .page7{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -10px;
+    height: 80px;
+    margin-left: 100px;
+    background-color:rgb(43, 41, 41);
+}
+header nav .page7 .l{
+    padding: 20px;
+    background-color:rgb(43, 41, 41);
+}
+header nav .page7 .r{
+    
+    padding: 20px;
+    background-color:rgb(43, 41, 41);
+}
+header nav .page7 .r a{
+    
+    background-color:rgb(43, 41, 41);
+    color: azure;
+    text-decoration: none;
+    
+    
+}
+header nav .box7{
+    width: 1205px;
+    height: 300px;
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: repeat(6,170px);
+    gap: 20px;
+    background-color: rgb(43, 41, 41);
+}
+header nav .box7 .box{
+    margin: 30px;
+    height: 250px;
+    width: 170px;
+    background: linear-gradient(180deg ,rgb(59, 58, 58) 20% , rgb(61, 60, 60) 30% , rgb(54, 53, 53) 50%);
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    
+
+}
+header nav .box7 .box:hover{
+    margin: 30px;
+    height: 250px;
+    width: 170px;
+    background: linear-gradient(180deg ,rgb(92, 91, 91) 20% , rgb(93, 92, 92) 30% , rgb(86, 85, 85) 50%);
+    box-shadow: 0px 0px 10px rgb(78, 75, 75);
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    
+
+}
+header nav .box7 .box img{
+    border-radius: 10px;
+    margin-top: 10px;
+    height: 220px;
+    width: 150px;
+}
+
+
+header nav .page8{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -10px;
+    height: 80px;
+    margin-left: 100px;
+    background-color:rgb(43, 41, 41);
+}
+header nav .page8 .l{
+    padding: 20px;
+    background-color:rgb(43, 41, 41);
+}
+header nav .page8 .r{
+    
+    padding: 20px;
+    background-color:rgb(43, 41, 41);
+}
+header nav .page8 .r a{
+    
+    background-color:rgb(43, 41, 41);
+    color: azure;
+    text-decoration: none;
+    
+    
+}
+header nav .box8{
+    width: 1205px;
+    height: 300px;
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: repeat(6,170px);
+    gap: 20px;
+    background-color: rgb(43, 41, 41);
+}
+header nav .box8 .box{
+    margin: 30px;
+    height: 250px;
+    width: 170px;
+    background: linear-gradient(180deg ,rgb(59, 58, 58) 20% , rgb(61, 60, 60) 30% , rgb(54, 53, 53) 50%);
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    
+
+}
+header nav .box8 .box:hover{
+    margin: 30px;
+    height: 250px;
+    width: 170px;
+    background: linear-gradient(180deg ,rgb(92, 91, 91) 20% , rgb(93, 92, 92) 30% , rgb(86, 85, 85) 50%);
+    box-shadow: 0px 0px 10px rgb(78, 75, 75);
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    
+
+}
+header nav .box8 .box img{
+    border-radius: 10px;
+    margin-top: 10px;
+    height: 220px;
+    width: 150px;
+}
+
+
+header nav .page9{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -10px;
+    height: 80px;
+    margin-left: 100px;
+    background-color:rgb(43, 41, 41);
+}
+header nav .page9 .l{
+    padding: 20px;
+    background-color:rgb(43, 41, 41);
+}
+header nav .page9 .r{
+    
+    padding: 20px;
+    background-color:rgb(43, 41, 41);
+}
+header nav .page9 .r a{
+    
+    background-color:rgb(43, 41, 41);
+    color: azure;
+    text-decoration: none;
+    
+    
+}
+header nav .box9{
+    width: 1205px;
+    height: 300px;
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: repeat(6,170px);
+    gap: 20px;
+    background-color: rgb(43, 41, 41);
+}
+header nav .box9 .box{
+    margin: 30px;
+    height: 250px;
+    width: 170px;
+    background: linear-gradient(180deg ,rgb(59, 58, 58) 20% , rgb(61, 60, 60) 30% , rgb(54, 53, 53) 50%);
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    
+
+}
+header nav .box9 .box:hover{
+    margin: 30px;
+    height: 250px;
+    width: 170px;
+    background: linear-gradient(180deg ,rgb(92, 91, 91) 20% , rgb(93, 92, 92) 30% , rgb(86, 85, 85) 50%);
+    box-shadow: 0px 0px 10px rgb(78, 75, 75);
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    
+
+}
+header nav .box9 .box img{
+    border-radius: 10px;
+    margin-top: 10px;
+    height: 220px;
+    width: 150px;
+}
+
+
+header nav .page10{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -10px;
+    height: 80px;
+    margin-left: 100px;
+    background-color:rgb(43, 41, 41);
+}
+header nav .page10 .l{
+    padding: 20px;
+    background-color:rgb(43, 41, 41);
+}
+header nav .page10 .r{
+    
+    padding: 20px;
+    background-color:rgb(43, 41, 41);
+}
+header nav .page10 .r a{
+    
+    background-color:rgb(43, 41, 41);
+    color: azure;
+    text-decoration: none;
+    
+    
+}
+header nav .box10{
+    width: 1205px;
+    height: 300px;
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: repeat(6,170px);
+    gap: 20px;
+    background-color: rgb(43, 41, 41);
+}
+header nav .box10 .box{
+    margin: 30px;
+    height: 250px;
+    width: 170px;
+    background: linear-gradient(180deg ,rgb(59, 58, 58) 20% , rgb(61, 60, 60) 30% , rgb(54, 53, 53) 50%);
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    
+
+}
+header nav .box10 .box:hover{
+    margin: 30px;
+    height: 250px;
+    width: 170px;
+    background: linear-gradient(180deg ,rgb(92, 91, 91) 20% , rgb(93, 92, 92) 30% , rgb(86, 85, 85) 50%);
+    box-shadow: 0px 0px 10px rgb(78, 75, 75);
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    
+
+}
+header nav .box10 .box img{
+    border-radius: 10px;
+    margin-top: 10px;
+    height: 220px;
+    width: 150px;
+}
+
+header nav .page11{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -10px;
+    height: 80px;
+    margin-left: 100px;
+    background-color:rgb(43, 41, 41);
+}
+header nav .page11 .l{
+    padding: 20px;
+    background-color:rgb(43, 41, 41);
+}
+header nav .page11 .r{
+    
+    padding: 20px;
+    background-color:rgb(43, 41, 41);
+}
+header nav .page11 .r a{
+    
+    background-color:rgb(43, 41, 41);
+    color: azure;
+    text-decoration: none;
+    
+    
+}
+header nav .box11{
+    width: 1205px;
+    height: 300px;
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: repeat(6,170px);
+    gap: 20px;
+    background-color: rgb(43, 41, 41);
+}
+header nav .box11 .box{
+    margin: 30px;
+    height: 250px;
+    width: 170px;
+    background: linear-gradient(180deg ,rgb(59, 58, 58) 20% , rgb(61, 60, 60) 30% , rgb(54, 53, 53) 50%);
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    
+
+}
+header nav .box11 .box:hover{
+    margin: 30px;
+    height: 250px;
+    width: 170px;
+    background: linear-gradient(180deg ,rgb(92, 91, 91) 20% , rgb(93, 92, 92) 30% , rgb(86, 85, 85) 50%);
+    box-shadow: 0px 0px 10px rgb(78, 75, 75);
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    
+
+}
+header nav .box11 .box img{
+    border-radius: 10px;
+    margin-top: 10px;
+    height: 220px;
+    width: 150px;
+}
+
+header nav .page12{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -10px;
+    height: 80px;
+    margin-left: 100px;
+    background-color:rgb(43, 41, 41);
+}
+header nav .page12 .l{
+    padding: 20px;
+    background-color:rgb(43, 41, 41);
+}
+header nav .page12 .r{
+    
+    padding: 20px;
+    background-color:rgb(43, 41, 41);
+}
+header nav .page12 .r a{
+    
+    background-color:rgb(43, 41, 41);
+    color: azure;
+    text-decoration: none;
+    
+    
+}
+header nav .box12{
+    width: 1205px;
+    height: 300px;
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: repeat(6,170px);
+    gap: 20px;
+    background-color: rgb(43, 41, 41);
+}
+header nav .box12 .box{
+    margin: 30px;
+    height: 250px;
+    width: 170px;
+    background: linear-gradient(180deg ,rgb(59, 58, 58) 20% , rgb(61, 60, 60) 30% , rgb(54, 53, 53) 50%);
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    
+
+}
+header nav .box12 .box:hover{
+    margin: 30px;
+    height: 250px;
+    width: 170px;
+    background: linear-gradient(180deg ,rgb(92, 91, 91) 20% , rgb(93, 92, 92) 30% , rgb(86, 85, 85) 50%);
+    box-shadow: 0px 0px 10px rgb(78, 75, 75);
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    
+
+}
+header nav .box12 .box img{
+    border-radius: 10px;
+    margin-top: 10px;
+    height: 220px;
+    width: 150px;
+}
+
+
+
+#tag1 .tag a i{
+    color: white;
+    font-size: 25px;
+    justify-content: center;
+    border-radius: 2px;
+    background-color: rgb(43, 41, 41);
+    height: 30px;
+    padding-top: 14px;
+    text-align: center;
+    width: 45px;
+    
+}
+#tag2 .tag a #heart{
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+    border-radius: 5px;
+    background: linear-gradient(135deg , rgb(26, 26, 197) 5% ,rgb(47, 47, 202) 30%, rgb(83, 147, 207) 70%, rgb(167, 167, 232) 80%, white 90%);
+    height: 30px;
+    padding-top: 14px;
+    text-align: center;
+    width: 45px;
+}
+#tag2 .tag a #headphones{
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: rgb(65, 64, 64);
+    height: 30px;
+    padding-top: 14px;
+    text-align: center;
+    width: 45px;
+}
+#tag2 .tag a i{
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: rgb(43, 41, 41);
+    height: 30px;
+    padding-top: 14px;
+    text-align: center;
+    width: 45px;
+}
+#tag1 .tag {
+    padding-top: 20px;
+    margin: auto;
+    background-color: rgb(43, 41, 41);
+    width: 40px;
+    height: 40px;
+}
+#tag2 .tag {
+    padding-top: 20px;
+    margin: auto;
+    background-color: rgb(43, 41, 41);
+    width: 50px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+#tag1{
+   
+    margin-top: -4780px;
+    position: fixed;
+    background-color: rgb(43, 41, 41);
+    border-radius: 10px;
+    width: 80px;
+    height: 150px;
+    z-index: 1;
+    margin-right: -50px;
+    left: 10px;
+    
+   
+}
+#tag2{
+    margin-top: -4620px;
+    margin-left: 10px;
+    position: fixed;
+    background-color: rgb(43, 41, 41);
+    border-radius: 10px;
+    width: 80px;
+    height: 420px;
+    z-index: 1;
+    margin-right: -50px;
+   
+}
